@@ -1,6 +1,7 @@
 .card {
     border-radius: 10px;
-    border: 1px solid #e0245e;
+    border: 1px solid #042d58;
+    padding: 5px 10px 20px;
   }
   
   .card-title {
@@ -9,11 +10,11 @@
   }
   
   .card-text {
-    color: #14171a;
+    color: antiquewhite;
   }
   
   .card-title, .card-text {
-    color: black; 
+    color: #0072EC; 
   }
 
   .btn {
@@ -30,30 +31,38 @@
   }
 
   body {
-    background-color: #1DA1F2; 
+    background: linear-gradient(to right, #010114, #021D3B, #010114);
     margin: 20px; /* Márgenes alrededor del contenido */
+    text-co
   }
   
   .container {
-    background-color: lemonchiffon; 
+    background-color: #111111;
     padding: 20px; /* Espaciado interno */
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 20px; /* Bordes redondeados */
   }
   
 
   .btn {
-    border-radius: 5px; /* Bordes redondeados */
-    font-size: larger;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 5px 10px;
   }
   
   .btn-primary {
-    background-color: #1DA1F2; /* Color azul similar al de Twitter */
+    background-color: #0072EC; /* Color azul similar al de Twitter */
   }
   
-  .btn-warning {
-    background-color: #FFC107; /* Color amarillo para editar */
+  h1, h2, h3 , h5{
+    color: #0072EC; /* Cambia a cualquier color que desees */
   }
-  
-  .btn-danger {
-    background-color: #e0245e; /* Color rojo para eliminar */
+
+  label {
+    color: #0072EC;
+    font-size: x-large;
+  }
+
+  p {
+    color: #0072EC;
+    font-size: x-large;
   }
