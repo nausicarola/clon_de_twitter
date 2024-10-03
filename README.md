@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Prueba - Introducción a desarrollo de aplicaciones con Ruby on Rails
 
-* Ruby version
+* Modulo 5
 
-* System dependencies
+* Alumna Carola Pulgar Soto
 
-* Configuration
+* *****Requerimientos *****
+1. Crear la aplicación utilizando como base de datos postgresql.
 
-* Database creation
+2. Generar un scaffold para las acciones pertinentes que permitan, Crear, Leer, Actualizar y Eliminar un Tweet.
+    a. Para el modelo de Tweet deberán existir los siguientes campos:
+        i. Description.
+        ii. UserName
 
-* Database initialization
+3. Aplicar paginación en la vista index para que se muestren únicamente 10 tweets y exista un botón para ver más.
 
-* How to run the test suite
+4. Implementar un buscador de tweets.
 
-* Services (job queues, cache servers, search engines, etc.)
+5. Utilizar git y github para el versionamiento y progresión de avances en la aplicación, deberán existir al menos 5 commits realizados que describen dichos avances.
 
-* Deployment instructions
+6. Subir la aplicación a Render.
 
-* ...
+
+* link de la página   --> http://localhost:3000/tweets
