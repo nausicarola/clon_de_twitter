@@ -1,0 +1,59 @@
+.card {
+    border-radius: 10px;
+    border: 1px solid #e0245e;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  .card-text {
+    color: #14171a;
+  }
+  
+  .card-title, .card-text {
+    color: black; 
+  }
+
+  .btn {
+    margin-right: 5px;
+  }
+  
+  .container {
+    max-width: 500px; /* Limita el ancho del contenedor */
+  }
+
+  .col-md-8 {
+    margin-left: auto; /* Centrado automático */
+    margin-right: auto; /* Centrado automático */
+  }
+
+  body {
+    background-color: #1DA1F2; 
+    margin: 20px; /* Márgenes alrededor del contenido */
+  }
+  
+  .container {
+    background-color: lemonchiffon; 
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+
+  .btn {
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: larger;
+  }
+  
+  .btn-primary {
+    background-color: #1DA1F2; /* Color azul similar al de Twitter */
+  }
+  
+  .btn-warning {
+    background-color: #FFC107; /* Color amarillo para editar */
+  }
+  
+  .btn-danger {
+    background-color: #e0245e; /* Color rojo para eliminar */
+  }
